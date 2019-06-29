@@ -233,11 +233,35 @@ Teams should analyze existing processes against the principles, and see where De
 
 
 40. What is Git? 
+Git is a free and open source distributed version control system designed to 
+handle everything from small to very large projects with speed and efficiency.
+
+Git is easy to learn and has a tiny footprint with lightning fast performance. 
+It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features 
+like cheap local branching, convenient staging areas, and multiple workflows.
+By far, the most widely used modern version control system in the world today is Git. 
+Git is a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds,
+ the famous creator of the Linux operating system kernel. 
+A staggering number of software projects rely on Git for version control,
+ including commercial projects as well as open source. 
+Developers who have worked with Git are well represented in the pool of 
+available software development talent and it works well on a wide range of 
+operating systems and IDEs (Integrated Development Environments).
+
+Having a distributed architecture, Git is an example of a DVCS (hence Distributed Version Control System). 
+Rather than have only one single place for the full version history of the software as is common 
+in once-popular version control systems like CVS or Subversion (also known as SVN), 
+in Git, every developer's working copy of the code is also a repository that can contain the full history of all changes.
+In addition to being distributed, Git has been designed with performance, security and flexibility in mind.
 
 41. What is the command to write a commit message in Git? 
 git commit -m "Message"
 
 42. What language is used in Git? 
+Mar 22, 2011 - The Git architecture allows different subcommands (add, commit, pull, ... Alternatively, 
+the tools that make up the core Git distribution are written in C and (Bourne) shell, ... Python, 
+the well-known 'gitk' tool is in Tcl, and the list of language ... Perl is used for a few tools 
+still these days like git-send-mail, git-svn, .
 
 43. What is the difference between git pull and git fetch?
 - In the simplest terms, git pull does a git fetch followed by a git merge.
@@ -298,6 +322,7 @@ git pull = git fetch + git merge.
 = Docker Hub is a registry service on the cloud that allows you to download Docker images that are built by other communities. You can also upload your own Docker built images to Docker hub
 
 55. What are the different functionalities and applications of using Docker? 
+
 
 56. What is a Docker Registry?
 - A Docker registry is organized into Docker repositories , where a repository holds all the versions of a specific image. The registry allows Docker users to pull images locally, as well as push new images to the registry 
